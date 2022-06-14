@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Kathihar.kml</name>
+	<Style id="sh_ylw-pushpin500">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>1.7</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin47">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>1.7</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin220">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin47</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin500</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>Kathihar</name>
+		<styleUrl>#msn_ylw-pushpin220</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				87.26693311248961,25.47455114265551,0 87.27847682324584,25.48492591868558,0 87.31314513300023,25.52019761463669,0 87.36167501287062,25.55542911743623,0 87.38479252852949,25.56992412760296,0 87.4032896386887,25.58027066122759,0 87.41022905871486,25.58441014900612,0 87.42641042401191,25.59060178532642,0 87.44029432748012,25.59887936348278,0 87.45185521183613,25.60300354215189,0 87.46803929460101,25.60711173797996,0 87.47958815768705,25.60707351640453,0 87.4911388454081,25.60703496210951,0 87.50037948981698,25.60700302724456,0 87.51651355830361,25.59862344961892,0 87.53266649575568,25.59440273687408,0 87.55344409405379,25.59016113899672,0 87.58114568622155,25.58380733023933,0 87.60423765403209,25.57954836186768,0 87.61809586880396,25.57740717106256,0 87.62268644762561,25.571143483718,0 87.62951589119298,25.55029821791279,0 87.63168847989556,25.52322962256831,0 87.63153797630305,25.49408952541194,0 87.63145500507747,25.47743733216785,0 87.63132503089797,25.45037485377302,0 87.62893468157228,25.43373184752821,0 87.62425587262292,25.42126497213057,0 87.62417683334593,25.40461001716276,0 87.617185712469,25.39006939882491,0 87.60789767024654,25.37762254106858,0 87.60557153530073,25.37346964338436,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
